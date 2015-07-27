@@ -15,7 +15,7 @@ function playsSomeSound(genre) {
 
 window.onload = function() {
     SC.initialize({
-        client_id: 'ebdcbebc049bfb92ff2066f9cd609109'
+        client_id: process.env.CLIENT_ID
     });
 
     var menuLinks = document.getElementsByClassName('genre');
